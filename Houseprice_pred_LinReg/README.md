@@ -1,17 +1,24 @@
-# Bangalore House Price Predictor
+# Hyderabad House Price Predictor
 
-This is a Linear Regression-based ML project that predicts house prices based on location, total area, and BHK.
+This project is a simple **Streamlit web app** that predicts house prices in Hyderabad using a **Linear Regression model** trained on real housing data.
 
-## Files
-- `train.py`: Trains and saves the model
-- `app.py`: Streamlit app for prediction
-- `housing.csv`: Dataset (place inside `data/`)
-- `model/linear_model.pkl`: Trained model
-- `requirements.txt`: Python dependencies
+
+---
+
+##  Features
+
+Predict house price in Lakhs (₹)  
+User inputs: area (sqft), BHK, location  
+Simple Linear Regression with One-Hot Encoding for location  
+Streamlit UI for instant predictions
+
+---
 
 ## How to Run
 
+### Install requirements
+
 ```bash
 pip install -r requirements.txt
-python train.py
-streamlit run app.py
+
+
